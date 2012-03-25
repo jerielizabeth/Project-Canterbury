@@ -1,0 +1,14 @@
+Plan for Project Canterbury
+
+- Pages to be Developed
+	- Home
+	- About
+	- Browse
+	- Search (shell)
+	- Example text pages
+		- Collection Page 
+		- St. Cuthbert
+		- Images Page
+	- Resources for Researchers
+		-forum?
+	- Bookstore Redesign
