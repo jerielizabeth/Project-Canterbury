@@ -1,14 +1,15 @@
-Plan for Project Canterbury
+Plan for Project Canterbury "Final Project"
 
 - Pages to be Developed
 	- Home
 	- About
 	- Browse
-	- Search (shell)
-	- Example text pages
-		- Collection Page 
-		- St. Cuthbert
-		- Images Page
-	- Resources for Researchers
-		-forum?
-	- Bookstore Redesign
+		- Categories Page
+		- Collection Page (Children's Literature)
+			- St. Cuthbert (from text assignment)
+				-Print Page
+			- Through the Church Door (from design assignment)
+				-Print Page
+	- Research
+	- Blog
+	
