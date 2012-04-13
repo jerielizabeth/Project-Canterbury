@@ -2,6 +2,7 @@ Plan for Project Canterbury "Final Project"
 
 - Pages to be Developed
 	- Home
+		- Blog
 	- About
 	- Browse
 		- Categories Page
@@ -11,5 +12,5 @@ Plan for Project Canterbury "Final Project"
 			- Through the Church Door (from design assignment)
 				-Print Page
 	- Research
-	- Blog
+
 	
