@@ -61,7 +61,7 @@ body{
 	background-repeat: no-repeat;
 	float: left;
 	width: 100%;
-	height: 200px;
+	height: 150px;
 }
 
 #header h1{
@@ -170,6 +170,7 @@ body{
 	float:left;
 	padding:15px 10px 5px 10px;
 	margin-right:10px;
+	margin-bottom:15px;
 
 }	
 
@@ -194,13 +195,25 @@ body{
 	float:left;
 	padding:5px 10px 5px 0;
 }
+#main .blogpost img{
+	float:left;
+	margin-right:10px;
+}
 
 #main .blogpost p{
 	padding:10px 20px 10px 10px;
 	font-size:1em;
 	line-height:1.4em;
 }
-
+#main .blogpost p a:link{
+	width:700px;
+	float:left;
+	text-align:left;
+	font-family: Georgia, "Times New Roman", Serif;
+	color:#5D2C2C;
+	background-color:white;
+	
+}
 /**** Sidebar ****/
 #sidebar {
 	width: 240px;
@@ -208,8 +221,7 @@ body{
 	margin:10px 0 10px 10px;
 	text-align:left;
 	font-family: Georgia, "Times New Roman", Serif;
-	font-size:1em;
-	line-height:1.4em;
+	font-size:.95em;
 	color:#333;
 }
 #sidebar img{
@@ -217,16 +229,15 @@ body{
 	margin-right:5px;
 }
 #sidebar h4{
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-weight:bold;
 	padding-bottom:7px;
 }
 
 #sidebar p {
-	font-size:1em;
-	line-height:1.4em;
+	line-height:1.3em;
 	padding-left:5px;
-	padding-top:5px;
+	padding-top:15px;
 }
 
 #sidebar ul{
@@ -245,6 +256,7 @@ body{
 	width:25px;
 	height:25px;
 	float:left;
+	padding-bottom:5px;
 }
 
 #sidebar a:link {
@@ -255,6 +267,7 @@ body{
 	font-family: Georgia, "Times New Roman", Serif;
 	text-align:left;
 	padding-right:5px;
+	padding-bottom:5px;
 } 
 #sidebar a:visited {
 	color: #5D2C2C;
