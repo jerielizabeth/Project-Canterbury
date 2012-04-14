@@ -33,6 +33,24 @@ body{
 	line-height: 1.2em;
 	font-family: Georgia, serif;
 }
+a:link {
+	background-color:white;
+	width:auto;
+	float:left;
+	text-align:left;
+	color: #5D2C2C;
+	text-decoration: underline
+} 
+a:visited {
+	color: #333;
+}
+a:hover {
+	color: #333;
+	text-decoration: none;
+}
+a:active {
+	color:#333;
+}
 
 /**** outerWrapper ****/
 #outerWrapper{
@@ -326,14 +344,14 @@ body{
 	padding-right:10px;
 } 
 #footLeft li a:visited {
-	color: ivory;
+	color: #FFFFF0;
 }
 #footLeft li a:hover {
-	color:ivory;
+	color:#FFFFF0;
 	text-decoration: underline;
 }
 #footLeft li a:active {
-	color: ivory;
+	color: #FFFFF0;
 	text-decoration:underline;
 }
 
