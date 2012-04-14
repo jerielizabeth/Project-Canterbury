@@ -63,7 +63,7 @@ body{
 /*** header ***/
 	
 #header {
-	background-image: url(../../images/main/Header.jpg);
+	background-image: url(../images/home/Header.jpg);
 	background-repeat: no-repeat;
 	float: left;
 	width: 100%;
