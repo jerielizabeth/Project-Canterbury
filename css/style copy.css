@@ -1,0 +1,356 @@
+/**** Browser Reset ****/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/**** Universal ****/
+
+body{
+	text-align:center;
+	line-height: 1.2em;
+	font-family: Georgia, serif;
+}
+
+/**** outerWrapper ****/
+#outerWrapper{
+	float: none;
+	width:960px;
+	border-width:10px 20px 0 20px;
+	border-style:solid;
+	border-color:#5D2C2C;
+	overflow:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+#outerWrapper a:link{
+	width:960px;
+	float:left;
+	background-color: #5D2C2C;
+	color: white;
+	text-decoration: underline;
+	font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
+	text-align:right;
+}
+/*** header ***/
+	
+#header {
+	background-image: url(../images/Main/Header.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	width: 100%;
+	height: 150px;
+}
+
+#header h1{
+	
+	display:none;
+}
+
+
+/**** nav ****/
+
+#nav{
+	border-bottom-width: 2px;
+	border-top-width: 5px;
+	border-bottom-color: #010101;
+	border-top-color: black;
+	border-bottom-style: solid;
+	border-top-style: double;
+	width:700px;
+	height:45px;
+	float:left;
+}
+#nav ul{
+	padding-left: 10px;
+	border-bottom-style: solid;
+	border-top-style: double;
+	width: 960px;
+	list-style-type: none;
+}
+#nav li{
+	text-align: left;
+	font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
+	font-variant: small-caps;
+	font-size:1.2em;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	float:left;
+	display:block;
+}
+
+#nav a:link {
+	width:auto;
+	background-color:white;
+	color: #333;
+	text-decoration: underline;
+	font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
+} 
+#nav a:visited {
+	color: #421f1f;
+}
+#nav a:hover {
+	color: #5D2C2C;
+	text-decoration: none;
+}
+#nav a:active {
+	color: #5D2C2C;
+	text-decoration: none;
+}
+
+/* Search */
+
+#search {
+	border-bottom-width: 2px;
+	border-top-width: 5px;
+	border-bottom-color: #010101;
+	border-top-color: black;
+	border-bottom-style: solid;
+	border-top-style: double;
+	width:260px;
+	height:45px;
+	float:left;
+	}
+#searchbox {
+	
+	font-size: 1.2em;
+	font-variant: small-caps;
+	font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
+	text-align:left;
+	border-color: #010101;
+	border-style: solid;
+	border-width: 1px;
+	margin-top:7px;
+	margin-right:10px;
+}
+
+/**** Content ****/
+#contentWrapper{
+	width:960px;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:auto;
+}
+#main {
+	width:700px;
+	float:left;
+	text-align:left;
+	font-family: Georgia, "Times New Roman", Serif;
+	color:#333;
+	
+}
+
+
+#main .blogpost {
+	width:690px;
+	float:left;
+	padding:15px 10px 5px 10px;
+	margin-right:10px;
+	margin-bottom:15px;
+}	
+
+#main .blogpost h4{
+	font-size:1.35em;
+	font-style:italic;
+	padding-bottom:10px;
+
+}
+
+#main .blogpost ul.subtext{
+	font-size:.75em;
+	color:#444;
+	font-variant:small-caps;
+	font-family: Georgia, "Times New Roman", Serif;
+	width:690px;
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+	padding-bottom:5px;
+	
+}
+#main .blogpost ul.subtext li{
+	text-decoration:none;
+	display:block;
+	float:left;
+	padding:0 10px 0 0;
+}
+#main .blogpost img{
+	float:left;
+	margin-right:10px;
+}
+
+#main .blogpost p{
+	padding:10px 20px 10px 10px;
+	font-size:1em;
+	line-height:1.4em;
+}
+#main .blogpost p a:link{
+	width:700px;
+	float:left;
+	text-align:left;
+	font-family: Georgia, "Times New Roman", Serif;
+	color:#5D2C2C;
+	background-color:white;
+	
+}
+/**** Sidebar ****/
+#sidebar {
+	width: 240px;
+	float:left;
+	margin:10px 0 10px 10px;
+	text-align:left;
+	font-family: Georgia, "Times New Roman", Serif;
+	font-size:.95em;
+	color:#333;
+}
+#sidebar img{
+	float:left;
+	margin-right:5px;
+}
+#sidebar h4{
+	font-size: 1.3em;
+	font-weight:bold;
+	padding-bottom:7px;
+}
+
+#sidebar p {
+	line-height:1.3em;
+	padding-left:5px;
+	padding-top:15px;
+}
+
+#sidebar ul{
+	text-align: left;
+	text-decoration: none;
+	padding-left:10px;
+}
+
+#sidebar li{
+	display:block;
+	float:left;
+	text-align:left;
+	
+}
+#sidebar li a img{
+	width:25px;
+	height:25px;
+	float:left;
+	padding-bottom:5px;
+}
+
+#sidebar a:link {
+	width:235px;
+	background-color:white;
+	color: #333;
+	text-decoration: underline;
+	font-family: Georgia, "Times New Roman", Serif;
+	text-align:left;
+	padding-right:5px;
+	padding-bottom:5px;
+} 
+#sidebar a:visited {
+	color: #5D2C2C;
+}
+#sidebar a:hover {
+	color: #5D2C2C;
+	text-decoration: none;
+}
+#sidebar a:active {
+	color:#5D2C2C;
+}
+/**** Footer ****/
+#footer{
+	clear: both;
+	width:960px;
+	float:left;
+	border-top-style:solid;
+	background-color:#5D2C2C;
+	padding-bottom:10px;
+	font-family: "EB Garamond", Times, Serif;
+	padding-top:10px;
+}
+#footLeft {
+	width: 710px;
+	float:left;
+}
+#footLeft ul {
+	width:710px;
+	float:left;
+	padding-bottom:10px;	
+}
+#footLeft li{
+	list-style-type: none;
+	display:block;
+	float:left;
+}
+
+#footLeft li a:link {
+	color: white;
+	text-decoration: none;
+	text-align:left;
+	width:auto;
+	float:left;
+	padding-right:10px;
+} 
+#footLeft li a:visited {
+	color: ivory;
+}
+#footLeft li a:hover {
+	color:ivory;
+	text-decoration: underline;
+}
+#footLeft li a:active {
+	color: ivory;
+	text-decoration:underline;
+}
+
+#footLeft p {
+	
+	color:white;
+	text-align:left;
+	padding-top: 5px;
+}
+#footLeft a:link{
+	width:710px;
+	float:left;
+}
+#footLeft img {
+	background-position: left;
+	float:left;
+	padding-top:5px;	
+	} 
+	
+#footRight {
+	width:250px;
+	float:left;
+	}	
+#footRight ul{
+	width:250px;
+	float:left;
+	border-style:solid;
+}
+
