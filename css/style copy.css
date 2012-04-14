@@ -54,16 +54,10 @@ body{
 	font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
 	text-align:right;
 }
-#outerWrapper a:visited{
-	color:#333;
-}
-#outerWrapper a:active{
-	color:#333;
-}
 /*** header ***/
 	
 #header {
-	background-image: url(../../images/main/Header.jpg);
+	background-image: url(../images/Main/Header.jpg);
 	background-repeat: no-repeat;
 	float: left;
 	width: 100%;
@@ -112,7 +106,7 @@ body{
 	width:auto;
 	background-color:white;
 	color: #333;
-	text-decoration: none;
+	text-decoration: underline;
 	font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
 } 
 #nav a:visited {
@@ -120,11 +114,11 @@ body{
 }
 #nav a:hover {
 	color: #5D2C2C;
-	text-decoration: underline;
+	text-decoration: none;
 }
 #nav a:active {
 	color: #5D2C2C;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 /* Search */
@@ -213,9 +207,6 @@ body{
 	padding:10px 20px 10px 10px;
 	font-size:1em;
 	line-height:1.4em;
-}
-#main .blogpost p.poem{
-	
 }
 #main .blogpost p a:link{
 	width:700px;
