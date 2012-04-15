@@ -1,67 +1,60 @@
-@import url(style.css);
+@import url("style.css");
 
-/* Upper Nav */
-#upper {
-	width:960px;
-	height:30px;
-	float:left;
-	margin-left:auto;
-	margin-right:auto;
-	padding-top:10px;
+#main{
+	padding:10px 0;
 }
-
-#nav1 {
-	width:450px;
-	float:left;
-	margin-left:590px;
-	}
-
-#nav1 li {
-	text-align: right;
-	display:block;
-	float:left;
-	padding-left:30px;
+#main h3{
+	font-size:1.35em;
+	font-style:italic;
+	padding:5px;
 
 }
-
-#nav1 li a{
-	font-family: Georgia, "Times New Roman", Times, serif;
-	color:ivory;
-	text-decoration:none;
-}
-
-/* OuterWrapper */
-#outerWrapper {
-	width:960px;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-left: auto;
-	height: auto;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	background-color:ivory;
-	
-}
-
-/* Nav2 */
-#nav2 {
-	border-bottom-style: solid;
-	border-top-style: double;
-	border-bottom-width: 2px;
-	border-top-width: 5px;
-	width:960px;
-	float:left;
-	
-}
-
-#nav2 li{
-	text-align: left;
-	display:block;
-	float:left;
+#main h4{
 	padding:5px 0 5px 10px;
+	font-size:1.2em;
+}
+#main p{
+	padding:5px 15px 5px 20px;
+	
+	}
+#main p.publish{
+	display:none;
+	}
+#main p.verse {
+	padding:5px 0 5px 20px;
+}
+#main img{
+	padding-left:10px;
+	float:left;
+}
+#main ul{
+	list-style:none;
+	font-family:Georgia, "Times New Roman", Serif;
+	margin-bottom:10px;
 }
 
-#nav2 li a{
-	font-family: Georgia, "Times New Roman", Times, serif;
-	color:black;
-	text-decoration:none;
+#main li{
+	padding:5px 0 3px 35px;
 }
+#poem {
+	width:400px;
+	float:left;
+}
+#poem h3{
+	height:250px;
+}
+#sidebar h4{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+#sidebar ul{
+	float:left;
+	padding:5px 0;
+}
+#sidebar .title{
+	font-style:italic;
+}
+#sidebar p{
+	padding:5px 0;
+}
+	
