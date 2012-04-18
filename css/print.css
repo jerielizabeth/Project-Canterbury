@@ -1,0 +1,49 @@
+/* Print Style Sheet modeled after example on AListApart.com (http://www.alistapart.com/articles/goingtoprint/) */
+body {
+   background: white;
+   font-size: 12pt;
+   }
+#skip{
+	display:none;
+}
+#header img{
+	display:none;
+}
+#nav {
+   display: none;
+   }
+#search {
+	display:none;
+}
+#outerWrapper, #main, #poem{
+   width: auto;
+   margin: 0 5%;
+   padding: 0;
+   border: 0;
+   float: none !important;
+   color: black;
+   background: transparent none;
+   }
+#main.publish{
+	display:inline;
+}
+#sidebar{
+	display:none;
+}
+#footer ul{
+	display:none;
+	
+}
+a:link, a:visited {
+   color: #520;
+   background: transparent;
+   font-weight: bold;
+   text-decoration: underline;
+   }
+#main a:link:after, #content a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;
+   }
+#main a[href^="/"]:after {
+   content: " (http://www.alistapart.com" attr(href) ") ";
+   }

@@ -1,0 +1,22 @@
+@import url("style.css");
+
+
+#main h3{
+	font-size:1.35em;
+	font-style:italic;
+	padding:10px;
+
+}
+#main p{
+	padding-left:20px;
+	}
+#main ul{
+	list-style-type: circle;
+	font-family:Georgia, "Times New Roman", Serif;
+}
+
+#main li{
+	padding:5px 0 5px 25px;
+	list-style-type:circle;
+}
+
