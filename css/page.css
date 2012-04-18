@@ -1,5 +1,11 @@
 @import url("style.css");
 
+@media screen, projection, tv{
+	#main p.publish{
+	display:none;
+	}
+}
+
 #main{
 	padding:10px 0;
 }
@@ -17,9 +23,7 @@
 	padding:5px 15px 5px 20px;
 	
 	}
-#main p.publish{
-	display:none;
-	}
+
 #main p.verse {
 	padding:5px 0 5px 20px;
 }
