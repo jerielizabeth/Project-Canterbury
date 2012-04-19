@@ -240,8 +240,9 @@ body{
 	padding:0 10px 0 0;
 }
 #main .blogpost img{
+	width:150px;
 	float:left;
-	margin-right:10px;
+	margin-left:10px;	
 }
 
 #main .blogpost p{

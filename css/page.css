@@ -12,24 +12,30 @@
 #main h3{
 	font-size:1.35em;
 	font-style:italic;
-	padding:5px;
+	padding:5px 5px 5px 10px;
 
 }
 #main h4{
-	padding:5px 0 5px 10px;
+	padding:10px 0 5px 10px;
 	font-size:1.2em;
 }
 #main p{
 	padding:5px 15px 5px 20px;
 	
 	}
-
-#main p.verse {
-	padding:5px 0 5px 20px;
+#poem {
+	width:690px;
+	float:left;
+	text-align:center;
+}
+#poem img{
+	margin:10px 260px;
 }
 #main img{
-	padding-left:10px;
+	padding-left:20px;
+	padding-bottom:5px;
 	float:left;
+	
 }
 #main ul{
 	list-style:none;
@@ -40,13 +46,7 @@
 #main li{
 	padding:5px 0 3px 35px;
 }
-#poem {
-	width:400px;
-	float:left;
-}
-#poem h3{
-	height:250px;
-}
+
 #sidebar h4{
 	padding-top:5px;
 	padding-bottom:5px;
