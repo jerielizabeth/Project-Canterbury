@@ -46,7 +46,7 @@ body{
 	overflow:auto;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:5px;
+	margin-top:10px;
 	-moz-border-radius-bottomleft: 10px;
  	-moz-border-radius-bottomright: 10px;
   	-webkit-border-bottom-left-radius: 10px;
@@ -82,9 +82,7 @@ body{
 
 #nav{
 	width:960px;
-	height:35px;
 	float:left;
-	background-color:#cccccc;
 	}
 #nav ul{
 	padding-left: 30px;
@@ -94,10 +92,10 @@ body{
 	text-align: left;
 	font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
 	font-variant: small-caps;
-	font-size:1.3em;
+	font-size:1.2em;
 	padding-right: 30px;
 	padding-bottom: 5px;
-	padding-top: 10px;
+	padding-top: 5px;
 	float:left;
 	display:block;
 }
@@ -153,7 +151,7 @@ body{
 #main {
 	width:600px;
 	float:left;
-	margin:10px 20px 10px 30px;
+	margin:15px 20px 10px 30px;
 	text-align:left;
 	font-family: Georgia, "Times New Roman", Serif;
 	color:#222222;
@@ -163,10 +161,15 @@ body{
 	font-size:1.4em;
 	font-weight: bold;
 	font-variant: small-caps;
+	font-family:Garamond, Georgia, Serif;
+	padding-bottom:10px;
 }
 #main h3 {
-	font-size: 1.3em;
+	font-size: 1.25em;
 	font-variant: small-caps;
+	font-family:Garamond, Georgia, Serif;
+	font-weight:bold;
+	padding-top:20px;
 }
 
 #main p{
@@ -179,17 +182,8 @@ body{
 	color:#5D2C2C;
 	
 }
-#main .about {
-	width:560px;
-	float:left;
-	padding-top:10px;
-	
-}
-#main .about h3{
-	font-size:1.4em;
-	padding-top:10px;
-}
-#main .about img{
+
+#main img{
 	float:left;
 	margin-top:10px;
 	padding-right: 10px;
@@ -199,27 +193,31 @@ body{
 
 
 
-#main .news {
+#news {
 	width:560px;
 	float:left;
 	padding-top:10px;
 	
-	
 }	
 
-
-#main .news h4{
+#news .post{
+	width:540px;
+	margin-left:20px;
+	
+	
+}
+#news .post h4{
 	font-style:italic;
 	font-size:1.15em;
 	padding:10px 0 0 0px;
 }
 
-#main .news p.subtext{
+#news .post p.subtext{
 	font-size:.8em;
 	font-variant:small-caps;
 	color:#666;
 	}
-#main .news img{
+#news .post img{
 	width:150px;
 	float:left;
 	
@@ -229,38 +227,22 @@ body{
 #sidebar {
 	width: 300px;
 	float:left;
-	margin:10px 10px 10px 0;
+	overflow:auto;
+	margin:15px 10px 10px 0;
 	text-align:left;
 	font-family: Georgia, "Times New Roman", Serif;
 	font-size:.95em;
 	color:#111111;
 }
-
-#updates h3 {
-	font-size:1.4em;
-}
-#updates ul{
+#sidebar ul{
 	text-align: left;
 	text-decoration: none;
-	padding-left:10px;
+	padding-top: 5px;
+	padding-bottom:10px;
 }
 
-#updates li{
-	display:block;
-	float:left;
-	text-align:left;
-	
-}
-#updates li a img{
-	width:25px;
-	height:25px;
-	float:left;
-	padding-bottom:5px;
-}
 
-#updates a:link {
-	width:235px;
-	background-color:white;
+#sidebar a:link {
 	color: #333;
 	text-decoration: underline;
 	font-family: Georgia, "Times New Roman", Serif;
@@ -268,20 +250,54 @@ body{
 	padding-right:5px;
 	padding-bottom:5px;
 } 
-#updates a:visited {
+#sidebar a:visited {
 	color: #5D2C2C;
 }
-#updates a:hover {
+#sidebar a:hover {
 	color: #5D2C2C;
 	text-decoration: none;
 }
-#updates a:active {
+#sidebar a:active {
 	color:#5D2C2C;
 }
-#updates .recent {
+#sidebar .recent {
 	padding:5px 0;
 	
 }
+
+
+#updates h3 {
+	font-size:1.25em;
+	font-family: Garamond, Georgia, Serif;
+	font-variant:small-caps;
+	font-weight: bold;
+	padding-bottom:10px;
+	
+}
+
+#connect h3{
+	font-size:1.25em;
+	font-family: Garamond, Georgia, Serif;
+	font-variant:small-caps;
+	font-weight: bold;
+	padding-bottom:10px;
+}
+#connect ul {
+	list-style-type: none;
+}
+
+#sidebar li a img{
+	width:25px;
+	height:25px;
+	float:left;
+	padding-bottom:5px;
+}
+#connect li{
+	height:25px;
+	padding-left:5px;
+	padding-bottom:5px;
+}
+
 /**** Footer ****/
 #footer{
 	clear: both;
@@ -337,9 +353,9 @@ body{
 	padding-top: 5px;
 	padding-left:20px;
 }
-#footer a:link{
+#footer p a:link{
 	background-color:#5D2C2C;
-	color: white;
+	color: #FFFFFF;
 	text-decoration: underline;
 	padding-right:10px;
 	font-family: "EB Garamond", Georgia, "Times New Roman", Times, serif;
